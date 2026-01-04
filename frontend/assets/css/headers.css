@@ -1,0 +1,46 @@
+header {
+    background-color: blue;
+    padding: 5px 20px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.container {
+    max-width: 992px;
+    margin: auto;
+}
+header .logo {
+    font-size: 2em;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul a:hover {
+    border: 2px solid white;
+    border-radius: 7px;
+}
+header ul a {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+}
